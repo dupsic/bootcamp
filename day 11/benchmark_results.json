@@ -1,0 +1,134 @@
+[
+    {
+        "model": "qwen3:8b",
+        "category": "factual",
+        "prompt": "What causes tides on Earth? Answer in 2-3 sentences.",
+        "response": "Tides on Earth are primarily caused by the gravitational pull of the moon and, to a lesser extent, the sun. The moon's gravity exerts a stronger influence because it is closer, creating bulges in Earth's oceans on the side facing and opposite the moon. As Earth rotates, these bulges move, resulting in the regular cycle of high and low tides.",
+        "time_seconds": 14.74,
+        "prompt_tokens": 25,
+        "completion_tokens": 329,
+        "tokens_per_second": 22.3,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "qwen3:8b",
+        "category": "reasoning",
+        "prompt": "If a train travels 120km in 1.5 hours, and then 80km in 1 hour, what is the average speed for the entire journey?",
+        "response": "To determine the average speed for the entire journey, we need to use the key formula for average speed:\n\n$$\n\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}\n$$\n\n---\n\n### Step 1: Calculate Total Distance\n\nThe train travels two segments of the journey:\n\n- First segment: 120 km  \n- Second segment: 80 km  \n\n$$\n\\text{Total Distance} = 120 \\text{ km} + 80 \\text{ km} = 200 \\text{ km}\n$$\n\n---\n\n### Step 2: Calculate Total Time\n\nThe time taken for the two segments is:\n\n- First segment: 1.5 hours  \n- Second segment: 1 hour  \n\n$$\n\\text{Total Time} = 1.5 \\text{ hours} + 1 \\text{ hour} = 2.5 \\text{ hours}\n$$\n\n---\n\n### Step 3: Compute Average Speed\n\nNow, divide the total distance by the total time:\n\n$$\n\\text{Average Speed} = \\frac{200 \\text{ km}}{2.5 \\text{ hours}} = 80 \\text{ km/h}\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{80}\n$$ km/h is the average speed for the entire journey.",
+        "time_seconds": 45.53,
+        "prompt_tokens": 47,
+        "completion_tokens": 1907,
+        "tokens_per_second": 41.9,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "qwen3:8b",
+        "category": "summarization",
+        "prompt": "Summarize this in one sentence: The internet is a global system of interconnected computer networks that use the Internet protocol suite to link devices worldwide.",
+        "response": "The internet is a global system of interconnected computer networks operating through the Internet protocol suite to connect devices worldwide.",
+        "time_seconds": 6.81,
+        "prompt_tokens": 39,
+        "completion_tokens": 322,
+        "tokens_per_second": 47.3,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "qwen3:8b",
+        "category": "structured",
+        "prompt": "List 3 European capitals. Respond ONLY with valid JSON: [{\"city\": \"name\", \"country\": \"name\"}]",
+        "response": "[{\"city\": \"Paris\", \"country\": \"France\"}, {\"city\": \"Berlin\", \"country\": \"Germany\"}, {\"city\": \"Rome\", \"country\": \"Italy\"}]",
+        "time_seconds": 7.32,
+        "prompt_tokens": 35,
+        "completion_tokens": 353,
+        "tokens_per_second": 48.2,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "qwen3:8b",
+        "category": "code",
+        "prompt": "Write a Python function to calculate the area of a circle given its radius.",
+        "response": "Here is a well-structured and clear Python function to calculate the area of a circle given its radius:\n\n```python\nimport math\n\ndef calculate_area(radius):\n    \"\"\"\n    Calculate the area of a circle given its radius.\n\n    Parameters:\n    radius (float): The radius of the circle.\n\n    Returns:\n    float: The area of the circle.\n    \"\"\"\n    return math.pi * (radius ** 2)\n```\n\n---\n\n### \u2705 Explanation:\n- **`import math`**: This imports the `math` module, which provides the constant `math.pi` for \u03c0.\n- **`def calculate_area(radius):`**: Defines a function named `calculate_area` that takes one parameter, `radius`.\n- **`return math.pi * (radius ** 2)`**: Uses the formula for the area of a circle, which is \u03c0 multiplied by the square of the radius.\n\n---\n\n### \ud83d\udccc Example Usage:\n```python\nprint(calculate_area(5))  # Output: approximately 78.5398\n```\n\n---\n\n### \ud83d\udcdd Notes:\n- The function assumes the input is a valid non-negative number. If negative input is provided, the function will return a negative area, which may not be meaningful in a real-world context. For more robust handling, input validation could be added, but it's typically omitted unless specifically required.",
+        "time_seconds": 21.13,
+        "prompt_tokens": 25,
+        "completion_tokens": 878,
+        "tokens_per_second": 41.6,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "qwen3:8b",
+        "category": "instruction",
+        "prompt": "Write a short poem about a cat. Do NOT use the word 'meow' or 'fur'.",
+        "response": "A shadow dances through the night,  \nEyes like embers, bright and wise.  \nSilent paws that trace the floor,  \nA whisper where the moonlight flows.  \n\nThey stalk the dusk with stealthy grace,  \nA silver tail that sways and plays.  \nA purring hymn that fills the air\u2014  \nA secret kept in every stare.",
+        "time_seconds": 11.79,
+        "prompt_tokens": 31,
+        "completion_tokens": 567,
+        "tokens_per_second": 48.1,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "factual",
+        "prompt": "What causes tides on Earth? Answer in 2-3 sentences.",
+        "response": "Tides on Earth are primarily caused by the gravitational pull of the Moon, which affects the ocean's water. The Moon's gravity pulls on the water molecules, creating a bulge in the ocean, resulting in high tide, and an opposite bulge on the other side of the Earth, resulting in low tide. Additionally, the Sun also has a gravitational effect on the oceans, although it is much weaker than the Moon's.",
+        "time_seconds": 5.69,
+        "prompt_tokens": 40,
+        "completion_tokens": 87,
+        "tokens_per_second": 15.3,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "reasoning",
+        "prompt": "If a train travels 120km in 1.5 hours, and then 80km in 1 hour, what is the average speed for the entire journey?",
+        "response": "To find the average speed for the entire journey, we need to calculate the total distance traveled and the total time taken.\n\nTotal distance = Distance traveled in first part + Distance traveled in second part\n= 120 km + 80 km\n= 200 km\n\nTotal time = Time taken for first part + Time taken for second part\n= 1.5 hours + 1 hour\n= 2.5 hours\n\nNow, we can calculate the average speed:\n\nAverage speed = Total distance / Total time\n= 200 km / 2.5 hours\n= 80 km/h\n\nSo, the average speed for the entire journey is 80 km/h.",
+        "time_seconds": 1.4,
+        "prompt_tokens": 59,
+        "completion_tokens": 137,
+        "tokens_per_second": 97.9,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "summarization",
+        "prompt": "Summarize this in one sentence: The internet is a global system of interconnected computer networks that use the Internet protocol suite to link devices worldwide.",
+        "response": "The internet is a global network of interconnected computers that communicate with each other using standardized protocols, connecting billions of devices across the world.",
+        "time_seconds": 0.36,
+        "prompt_tokens": 54,
+        "completion_tokens": 27,
+        "tokens_per_second": 75.9,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "structured",
+        "prompt": "List 3 European capitals. Respond ONLY with valid JSON: [{\"city\": \"name\", \"country\": \"name\"}]",
+        "response": "[{ \"city\": \"Paris\", \"country\": \"France\" }, { \"city\": \"Berlin\", \"country\": \"Germany\" }, { \"city\": \"Rome\", \"country\": \"Italy\" }]",
+        "time_seconds": 0.54,
+        "prompt_tokens": 50,
+        "completion_tokens": 44,
+        "tokens_per_second": 81.2,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "code",
+        "prompt": "Write a Python function to calculate the area of a circle given its radius.",
+        "response": "def calculate_circle_area(radius):\n    \"\"\"\n    Calculate the area of a circle given its radius.\n\n    Args:\n        radius (float): The radius of the circle.\n\n    Returns:\n        float: The area of the circle.\n    \"\"\"\n    if radius < 0:\n        raise ValueError(\"Radius cannot be negative.\")\n    \n    import math\n    return math.pi * (radius ** 2)",
+        "time_seconds": 0.85,
+        "prompt_tokens": 40,
+        "completion_tokens": 80,
+        "tokens_per_second": 94.1,
+        "subjective_quality_1_5": null
+    },
+    {
+        "model": "llama3.2:3b",
+        "category": "instruction",
+        "prompt": "Write a short poem about a cat. Do NOT use the word 'meow' or 'fur'.",
+        "response": "Whiskers twitch, eyes shine bright,\nA midnight hunter takes flight.\nSoftly padded, silent as can be,\nShe stalks her prey with stealthy glee.\n\nHer tail unwinds like a silken thread,\nAs she pounces, swift and ahead.\nWith playful pounce, she claims her prize,\nAnd curls up tight, with satisfied sighs.",
+        "time_seconds": 0.8,
+        "prompt_tokens": 46,
+        "completion_tokens": 75,
+        "tokens_per_second": 93.3,
+        "subjective_quality_1_5": null
+    }
+]
