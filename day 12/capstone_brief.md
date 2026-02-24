@@ -27,8 +27,8 @@ DeepEval uses an LLM to score your pipeline's responses. Use GPT-4.1-mini as jud
 
 ```bash
 deepeval set-azure-openai \
-  --openai-endpoint="https://YOUR.openai.azure.com/" \
-  --openai-api-key="YOUR_KEY" \
+  --base-url="https://ds-ai-internship.openai.azure.com/openai/v1/" \
+  --openai-api-key="FETY3IuwNRGrjakHIAasKPMcEjIEiWCIVFke6APDw5zIbb5qCMBDJQQJ99BLACfhMk5XJ3w3AAAAACOGPChD" \
   --deployment-name="gpt-4.1-mini" \
   --openai-api-version="2025-01-01-preview"
 ```
@@ -180,19 +180,24 @@ Rename your output files or add a flag to distinguish local vs cloud runs.
 Build a side-by-side comparison table:
 
 | Metric | Local (model) | Cloud (model) | Delta |
-|--------|--------------|---------------|-------|
-| Avg Faithfulness | | | |
-| Avg AnswerRelevancy | | | |
-| Avg ContextualRelevancy | | | |
-| Avg Response Time | | | |
-| Hallucination rate (unanswerable Qs) | | | |
+|--------|--------------|-------------|-------|
+| Avg Faithfulness | 80% | 100% | cloud is perfect at sticking to context |
+| Avg AnswerRelevancy | 80% | 0% | cloud mioght be too strict |
+| Avg ContextualRelevancy | 100% | 100% | retvieval is solid in both |
+| Avg Response Time | 80% | 80% | good |
+| Hallucination rate (unanswerable Qs) | 0% | 0% | both nmodels struggle with noise in the chunks |
 
 **Questions to answer in your analysis:**
 - On which question types does the local model match the cloud model?
+    Retrieval Performance: Both models achieved 100% Contextual Recall and 80% Contextual Precision. This indicates that the local embedding model (nomic-embed-text) is highly effective at finding the correct documents.
 - On which types does it fall short, and by how much?
+    Factuality (Faithfulness): The local model fell short by 20%. It occasionally "hallucinated" or added external knowledge not found in the documents. GPT-4.1-mini was a "perfect" follower of the system prompt's strict instruction to use only the context.
 - Are there questions where local actually performs better?
+    Perceived Relevancy: Interestingly, the local model scored 80% in Answer Relevancy, while the Cloud model scored 0%.
 - What's the speed difference?
+    Azure (Cloud) is roughly 2-3x faster for generation.
 - Given cost (cloud API calls vs free local), at what quality threshold would you recommend local to a client?
+    Local Model if the client's threshold is 80% Accuracy and they prioritize Data Privacy or Zero Operating Cost.
 
 ---
 
