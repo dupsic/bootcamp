@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the one-time home office setup allowance for approved employees?",
+    "expected_answer": "NovaTech offers a one-time home office setup allowance of \u20ac500.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "is \u20ac100. Gifts to clients must not exceed \u20ac50 per recipient per calendar year\nand must comply with the recipient's organization's gift policies.\nHome Office Setup Allowance\nEmployees approved for regular remote work (minimum two days per week) are\neligible for a one-time home office setup allowance of \u20ac500. This covers\nergonomic furniture, monitors, keyboards, and similar equipment. Receipts must\nbe submitted within sixty (60) days of purchase. This allowance is available once",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 1668,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q02",
+    "question": "What is the minimum required internet download speed for remote work?",
+    "expected_answer": "A stable internet connection with a minimum of 25 Mbps download speed.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "time data access (sub-30-second latency) is available on the Enterprise tier for\nthe native ProjectHub connector and streaming connectors (Kafka, Kinesis). Other\nconnectors follow their tier-specific refresh intervals as documented in the Data\nConnectors section.\nQ: What is the maximum file size for uploads? A: Individual file uploads are\nlimited to 250 MB via the web interface and 1 GB via the API. For larger files,\nuse the multipart upload API endpoint which supports files up to 10 GB.",
+      "is \u20ac100. Gifts to clients must not exceed \u20ac50 per recipient per calendar year\nand must comply with the recipient's organization's gift policies.\nHome Office Setup Allowance\nEmployees approved for regular remote work (minimum two days per week) are\neligible for a one-time home office setup allowance of \u20ac500. This covers\nergonomic furniture, monitors, keyboards, and similar equipment. Receipts must\nbe submitted within sixty (60) days of purchase. This allowance is available once",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 44,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q03",
+    "question": "Who assigned the task of communicating the remote work policy change?",
+    "expected_answer": "Aisha was assigned to update the handbook and communicate the change.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "Company-wide communication on remote policy change | Aisha + Sarah | Mar 20\n| | 3.3 | Update IT security policy (password rotation) | Marcus | Mar 12 | | 3.4 |\nCompany-wide communication on password policy change | Marcus | Mar 12 | |\n3.5 | NovaT ech Copilot project plan and staffing timeline | Marcus | Mar 19 | | 3.6 |\nPost AI/ML specialist roles with updated comp bands | Aisha | Mar 7 | | 3.7 |\nLisbon office readiness report | Elena | Mar 28 | | 3.8 | Monthly Copilot progress",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 19,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q04",
+    "question": "What are the mandatory in-office days mentioned in the meeting notes?",
+    "expected_answer": "Tuesday and Thursday are the current mandatory in-office days.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Team Days\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n5. Leave and Time-Off Policy\nAnnual Leave (Paid Time Off)\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis.",
+      "AEs. He asked whether departments could set their own minimum in-office days\non top of the company baseline.\nSarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (T uesday and Thursday).",
+      "PTO requests should be submitted via NovaHR at least two (2) weeks in\nadvance for absences of three (3) or more consecutive days, and at least three\n(3) business days in advance for shorter absences. Managers may decline\nrequests during critical business periods, provided reasonable alternative dates\nare offered.\nSick Leave\nEmployees are entitled to ten (10) paid sick days per calendar year. A medical\ncertificate is required for absences exceeding three (3) consecutive working",
+      "PTO accrues monthly (2.083 days per month). Employees may use PTO before it\nhas fully accrued, subject to manager approval. The maximum negative PTO\nbalance permitted is five (5) days.\nCarryover: Unused PTO may be carried over to the following calendar year, up\nto a maximum of five (5) days. Carried-over days must be used by March 31\nof the following year. Any unused carried-over days beyond this date will be\nforfeited unless prohibited by local employment law.",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 20,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q05",
+    "question": "How long must an employee be in their probationary period before becoming eligible for 3 days of remote work?",
+    "expected_answer": "Employees must complete a six-month probationary period.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022",
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "required to perform job duties.\nThe obligation of confidentiality survives the termination of employment and\nremains in effect for twenty-four (24) months after the employee's last day of\nwork, unless a longer period is specified in the employment contract.\nData Classification\nClassificationDescription Examples Handling\nPublic\nInformation\nintended for\npublic distribution\nMarketing materials,\nblog posts No restrictions\nInternal\nInformation for\nNovaT ech\nemployees only\nOrg charts, internal\nannouncements"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 18,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q06",
+    "question": "How does the remote work policy change between the current handbook and the latest meeting decision?",
+    "expected_answer": "The handbook states a maximum of 3 days remote, but the meeting notes update this to allow up to 4 days remote per week effective Q3 2026.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2",
+      "employment. NovaT ech Solutions reserves the right to modify, revise, or\ndiscontinue any policy in this handbook at any time, with reasonable notice to\nemployees. Material changes will be communicated via company-wide email and\nposted on the intranet.\nNovaTech Solutions GmbH Leopoldstra\u00dfe 120, 80802 Munich, Germany\nHandelsregister: HRB 231847 (Amtsgericht Munich) Gesch\u00e4ftsf\u00fchrer: Sarah Chen\n(CEO), Marcus Weber (CTO), Priya Anand (CFO)\nFor questions about this handbook, contact: hr@novatech-solutions.com"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 18,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q07",
+    "question": "What technical requirements and security measures must a remote employee follow?",
+    "expected_answer": "Employees need 25 Mbps download/5 Mbps upload speeds and must use the company VPN to comply with IT security policies.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "published on the company intranet.\n11. Information Technology Policies\nThe IT policies outlined below are mandatory for all employees and contractors\nwith access to NovaT ech systems. Compliance is monitored by the IT Security\nteam, and violations may result in disciplinary action.\nAccess and Authentication\nAll NovaT ech accounts must be protected by two-factor authentication\n(2FA). 2FA is mandatory \u2014 no exceptions. Hardware security keys (YubiKey)\n\u2022"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 17,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q08",
+    "question": "What is the approval process for a hybrid work request?",
+    "expected_answer": "The employee submits a request via NovaHR; the manager reviews it within five business days considering team coverage and role suitability.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "3.2 Access Provisioning\nAccess requests are submitted through the IT Service Portal and must include:\nthe system or resource requested, the business justification, the requested role\nor permission level, and the expected duration of access. All access requests for\nConfidential systems require manager approval. Access to Restricted systems\nadditionally requires CISO approval and a completed background verification.\nT emporary access (for contractors, project-based work, or cross-team",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "(e.g., London, San Francisco, Zurich) may be approved by the Finance team on a\ncase-by-case basis.\nGround transportation: T axi and ride-share services are reimbursable for\nbusiness travel. Rental cars require prior manager approval and must include\ncomprehensive insurance coverage.\nClient Entertainment\nClient entertainment expenses (meals, events, gifts) must be pre-approved by a\ndirector-level manager. The maximum per-person spend for client entertainment",
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 34,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q09",
+    "question": "Why did Marcus support the change to 4 days of remote work?",
+    "expected_answer": "Because the IT infrastructure already supports it, VPN capacity was expanded in 2024, and all employees have company laptops.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 19,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q10",
+    "question": "What restrictions apply to working remotely from a different country?",
+    "expected_answer": "It must be from the registered country of employment. More than 5 consecutive days abroad requires HR approval due to tax/social security, and requests must be made 4 weeks in advance.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 17,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q11",
+    "question": "Summarize the employee sentiment that led to the policy update in Q3 2026.",
+    "expected_answer": "71% of employees wanted more flexibility, while only 18% were happy with the current policy and 11% wanted more in-office time.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "compliance posture for regulated-industry customers.\n4.4 Product Roadmap -- Upcoming\nThe following major initiatives are planned for the remainder of 2026:\nInitiative Target QuarterStatus\nProjectHub v3.3 (Advanced Reporting)Q2 2026 In development\nInsight v3.0 (Predictive Analytics) Q2 2026 In development\nNovaT ech Copilot (AI Assistant) Q3 2026 Design phase\nProjectHub Mobile App (iOS/Android)Q3 2026 Design phase\nInsight Real-Time Streaming Q4 2026 Planning",
+      "from EUR 11K to EUR 48K after pilot program for Insight dashboards proved\nsuccessful across their hospital network spanning Denmark and Sweden.\n4. Product Milestones\n4.1 ProjectHub v3.2\nProjectHub v3.2 was released on February 12, 2026, representing our most\nsignificant product update in over a year. Key features included:\nAI Task Prioritization Engine: Uses machine learning models to analyze\nhistorical project data and recommend task prioritization. Available to",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 17,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q12",
+    "question": "If an employee in a facilities role wants to work 4 days remotely starting in Q3 2026, are they allowed?",
+    "expected_answer": "No. While the policy allows 4 days, roles requiring physical presence like facilities are ineligible for hybrid work.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "including the use of the company VPN for accessing internal systems.\nLocation Restrictions\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.\n1. \n2. \n3. \n\u2022 \n\u2022 \n\u2022 \n\u2022"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 18,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q13",
+    "question": "Based on the security policy and handbook, what is the protocol for a remote employee who loses their company laptop?",
+    "expected_answer": "The documents mention remote work must comply with IT security, but they do not specifically detail the protocol for a lost laptop.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "routine review that could have been exploited, or a failed brute-force attack\nagainst an employee account. P3 incidents require acknowledgment within 4\nhours of detection. The Security Operations Lead assigns an analyst to\ninvestigate and determines whether escalation is warranted within 8 hours. A\nwritten summary must be delivered within 3 business days.\nP4 \u2014 Low: A minor security event or policy violation with negligible immediate\nrisk. Examples include: an employee sharing an Internal document without an",
+      "NDA in place, a laptop with full-disk encryption reported lost, a single failed social\nengineering attempt that was recognized and reported, or a minor vulnerability\ndiscovered in a non-customer-facing internal tool. P4 incidents require\nacknowledgment within 24 hours. The Security Operations team investigates\nduring normal business hours and documents findings within 5 business days.\n4.3 Incident Response Procedures\nAll incidents, regardless of severity, follow the same six-phase response lifecycle:",
+      "Lost or stolen devices must be reported to IT within four (4) hours of\ndiscovery via the IT emergency hotline (+49 89 555 0199) or it-\nsecurity@novatech-solutions.com.\nSoftware and Development Practices\nOnly software approved by IT may be installed on company devices.\nSoftware requests are submitted through the IT Service Portal and are\ntypically processed within three (3) business days.\nSource code must be stored exclusively in the company's GitHub Enterprise",
+      "deliberate data breaches, and severe safety violations \u2014 may result in\nimmediate termination without prior warnings.\n15. Handbook Acknowledgment\nBy continuing employment with NovaT ech Solutions, employees acknowledge\nthat they have received, read, and understood this handbook. A digital\nacknowledgment is recorded in NovaHR during onboarding and each time the\nhandbook is updated.\nThis handbook does not constitute an employment contract or a guarantee of"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 19,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q14",
+    "question": "What is the company's policy on pet insurance for remote employees?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 18,
+    "generation_time_ms": 0
+  },
+  {
+    "id": "q15",
+    "question": "How much is the annual bonus for senior engineers mentioned in the quarterly report?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "Error during generation: 404 Client Error: Resource Not Found for url: https://ds-ai-internship.openai.azure.com/api/chat",
+    "retrieved_context": [
+      "\"Developing\" or below are placed on a structured Performance Improvement Plan\n(PIP) lasting sixty (60) to ninety (90) days, with bi-weekly progress reviews.\nNovaStar Awards\nEach quarter, teams may nominate colleagues for the NovaStar Award, which\nrecognizes outstanding contributions to customer impact, cross-team\ncollaboration, or innovation. Winners receive a \u20ac250 bonus and are featured in\nthe company all-hands meeting.\n9. Professional Development",
+      "expansion revenue and a modest reduction in churn. The opening of our Lisbon\nengineering office in January proceeded on schedule and under budget, adding\n22 staff members who are already contributing to the Insight product roadmap.\nHowever, the quarter was not without challenges. Three Enterprise accounts\ntotaling EUR 420,000 in ARR have flagged potential non-renewal for Q2 and Q3.\nThe competitive landscape shifted meaningfully when Planwise, a well-funded",
+      "senior engineers in Q4 2025. Marcus supported the request and noted that the AI\nspecialists are critical for the NovaT ech Copilot initiative he wants to kick off in\nQ2.\nSales (James): Requested 8 new hires -- 5 account executives for the DACH\nregion and 3 for the new UK expansion. James reported that the current pipeline\nis 2.3x quota but the team is struggling to cover it. He mentioned that win rates\ndropped from 34% to 28% last quarter partly due to capacity issues.",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of \u20ac500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "Rating Description\nStrong (4) Frequently exceeds expectations; reliable high performer\nMeets Expectations\n(3)\nDelivers on commitments and demonstrates values\nalignment\nDeveloping (2) Partially meets expectations; improvement plan required\nBelow Expectations\n(1)\nDoes not meet role requirements; subject to performance\nimprovement plan (PIP)\nThe annual review directly informs compensation adjustments (effective\nMarch 1 of the following year) and promotion decisions. Employees rated"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 19,
+    "generation_time_ms": 0
+  }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "id": "q01",
+        "question": "What is the one-time home office setup allowance for approved employees?",
+        "expected_answer": "NovaTech offers a one-time home office setup allowance of €500.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q02",
+        "question": "What is the minimum required internet download speed for remote work?",
+        "expected_answer": "A stable internet connection with a minimum of 25 Mbps download speed.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q03",
+        "question": "Who assigned the task of communicating the remote work policy change?",
+        "expected_answer": "Aisha was assigned to update the handbook and communicate the change.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q04",
+        "question": "What are the mandatory in-office days mentioned in the meeting notes?",
+        "expected_answer": "Tuesday and Thursday are the current mandatory in-office days.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q05",
+        "question": "How long must an employee be in their probationary period before becoming eligible for 3 days of remote work?",
+        "expected_answer": "Employees must complete a six-month probationary period.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "easy",
+        "type": "factual"
+    },
+    {
+        "id": "q06",
+        "question": "How does the remote work policy change between the current handbook and the latest meeting decision?",
+        "expected_answer": "The handbook states a maximum of 3 days remote, but the meeting notes update this to allow up to 4 days remote per week effective Q3 2026.",
+        "source_document": "company_handbook.pdf, meeting_notes.pdf",
+        "difficulty": "medium",
+        "type": "comparison"
+    },
+    {
+        "id": "q07",
+        "question": "What technical requirements and security measures must a remote employee follow?",
+        "expected_answer": "Employees need 25 Mbps download/5 Mbps upload speeds and must use the company VPN to comply with IT security policies.",
+        "source_document": "company_handbook.pdf, security_policy.pdf",
+        "difficulty": "medium",
+        "type": "synthesis"
+    },
+    {
+        "id": "q08",
+        "question": "What is the approval process for a hybrid work request?",
+        "expected_answer": "The employee submits a request via NovaHR; the manager reviews it within five business days considering team coverage and role suitability.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "medium",
+        "type": "factual"
+    },
+    {
+        "id": "q09",
+        "question": "Why did Marcus support the change to 4 days of remote work?",
+        "expected_answer": "Because the IT infrastructure already supports it, VPN capacity was expanded in 2024, and all employees have company laptops.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "medium",
+        "type": "reasoning"
+    },
+    {
+        "id": "q10",
+        "question": "What restrictions apply to working remotely from a different country?",
+        "expected_answer": "It must be from the registered country of employment. More than 5 consecutive days abroad requires HR approval due to tax/social security, and requests must be made 4 weeks in advance.",
+        "source_document": "company_handbook.pdf",
+        "difficulty": "medium",
+        "type": "factual"
+    },
+    {
+        "id": "q11",
+        "question": "Summarize the employee sentiment that led to the policy update in Q3 2026.",
+        "expected_answer": "71% of employees wanted more flexibility, while only 18% were happy with the current policy and 11% wanted more in-office time.",
+        "source_document": "meeting_notes.pdf",
+        "difficulty": "hard",
+        "type": "synthesis"
+    },
+    {
+        "id": "q12",
+        "question": "If an employee in a facilities role wants to work 4 days remotely starting in Q3 2026, are they allowed?",
+        "expected_answer": "No. While the policy allows 4 days, roles requiring physical presence like facilities are ineligible for hybrid work.",
+        "source_document": "company_handbook.pdf, meeting_notes.pdf",
+        "difficulty": "hard",
+        "type": "reasoning"
+    },
+    {
+        "id": "q13",
+        "question": "Based on the security policy and handbook, what is the protocol for a remote employee who loses their company laptop?",
+        "expected_answer": "The documents mention remote work must comply with IT security, but they do not specifically detail the protocol for a lost laptop.",
+        "source_document": "security_policy.pdf",
+        "difficulty": "hard",
+        "type": "nuanced"
+    },
+    {
+        "id": "q14",
+        "question": "What is the company's policy on pet insurance for remote employees?",
+        "expected_answer": "I cannot find this information in the provided documents.",
+        "source_document": null,
+        "difficulty": "easy",
+        "type": "unanswerable"
+    },
+    {
+        "id": "q15",
+        "question": "How much is the annual bonus for senior engineers mentioned in the quarterly report?",
+        "expected_answer": "I cannot find this information in the provided documents.",
+        "source_document": null,
+        "difficulty": "easy",
+        "type": "unanswerable"
+    }
+]
